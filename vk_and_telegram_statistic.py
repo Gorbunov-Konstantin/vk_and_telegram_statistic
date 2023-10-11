@@ -11,9 +11,9 @@ from telethon.sync import TelegramClient
 import asyncio
 import tkinter as tk
 
-vk_key = 'b69c6663b69c6663b69c6663d4b589b152bb69cb69c6663d3813e7f560c911e9e4fdd8e'
-tg_id = '24548658'
-tg_hash = '1df249646be1349eecbd169f5edd54fa'
+vk_key = ''
+tg_id = ''
+tg_hash = ''
 
 vk_session = vk_api.VkApi(token=vk_key)
 vk_api_instance = vk_session.get_api()
